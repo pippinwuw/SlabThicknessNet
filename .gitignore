@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+checkpoints/
+logs/
+*.png
+data/model_input_with_raw.csv

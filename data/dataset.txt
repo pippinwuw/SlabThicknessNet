@@ -1,0 +1,14 @@
+名称	
+Proc_sin_lon	经度 (-180,180) 周期函数sin(raw_lon)
+Proc_cos_lon	经度周期函数cos(raw_lon)
+Proc_lat	对纬度归一化处理
+Proc_sin_lt	地方时周期函数sin(raw_local_hour)
+Proc_cos_lt	地方时周期函数cos(raw_local_hour)
+Proc_sin_doy	年积日周期函数sin(raw_dayofyear)
+Proc_cos_doy	年积日周期函数cos(raw_dayofyear)
+Proc_kp	对row_kp归一化处理
+Proc_f107	对raw_f107归一化处理
+Proc_cos_chi	太阳天顶角余弦特征
+Proc_vtec	对raw_vtec归一化处理
+Proc_mlat	对raw_mlat归一化处理
+Tau_km	观测计算tau

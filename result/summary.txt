@@ -1,0 +1,23 @@
+============================================================
+  Ionospheric Slab Thickness Prediction — Test Results
+============================================================
+
+  Model     : SlabThicknessNet (Residual MLP, ~1.88M params)
+  Checkpoint: best_model.pt / scaler.pt
+  Test size : 438,384 samples
+
+─── Metrics ───
+  RMSE : 59.55 km
+  MAE  : 43.43 km
+  MAPE : 12.54 %
+  R²   : 0.7067
+  R    : 0.8409
+
+─── vs. XGBoost+EL (paper baseline) ───
+  RMSE : 59.6  (baseline 62.3)  Δ = -2.7 km
+  MAE  : 43.4  (baseline 41.5)  Δ = +1.9 km
+  MAPE : 12.5%  (baseline 13.1%)  Δ = -0.6%
+  R    : 0.841  (baseline 0.904)  Δ = -0.063
+
+  Residual mean : -1.268 km
+  Residual std  : 59.539 km
